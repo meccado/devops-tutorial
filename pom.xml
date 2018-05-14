@@ -3,7 +3,7 @@
   <groupId>za.co.meccado</groupId>
   <artifactId>DevOpsWebApp123</artifactId>
   <packaging>war</packaging>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
   <name>DevOpsWebApp123 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
@@ -14,7 +14,7 @@
   
   <scm>
   	<developerConnection>scm:git:http://meccado@github.com/meccado/devops-tutorial.git</developerConnection>
-    <tag>DevOpsWebApp123-0.0.2</tag>
+    <tag>DevOpsWebApp123-0.0.1</tag>
   </scm>
   
   <dependencies>
