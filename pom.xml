@@ -3,7 +3,7 @@
   <groupId>za.co.meccado</groupId>
   <artifactId>DevOpsWebApp123</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>DevOpsWebApp123 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
