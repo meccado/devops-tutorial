@@ -61,11 +61,10 @@
 			</resource>
 		</resources>
   </build>
-  
-  <repositories>
+  <distributionManagement>
   	<repository>
   		<id>localDeploy</id>
-  		<url>file:///dev/repositories/releases</url>
+  		<url>file:///C:/dev/repositories/releases</url>
   	</repository>
-  </repositories>
+  </distributionManagement>
 </project>
