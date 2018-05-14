@@ -7,6 +7,16 @@
   <version>1.0-SNAPSHOT</version>
   <name>DevOpsWebApp123 Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
+  <properties>
+  	<project.scm.id>devops</project.scm.id>
+  </properties>
+  
+  
+  <scm>
+  	<developerConnection>scm:git:http://meccado@github.com/meccado/devops-tutorial.git</developerConnection>
+  </scm>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -44,4 +54,11 @@
 			</resource>
 		</resources>
   </build>
+  
+  <repositories>
+  	<repository>
+  		<id>localDeploy</id>
+  		<url>file:///dev/repositories/releases</url>
+  	</repository>
+  </repositories>
 </project>
