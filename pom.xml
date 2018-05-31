@@ -9,6 +9,13 @@
   
   <properties>
   	<project.scm.id>devops</project.scm.id>
+  	<!-- Add SCM(GITHUB) SERVER CREDENTIALS TO YOUR SETTINGS.XML
+  	 <server>
+    	<id>devops</id>
+    	<username>xxxxx</username>
+    	<password>xxxxx</password>
+    </server>
+  	 -->
   </properties>
   
   
@@ -66,5 +73,18 @@
   		<id>localDeploy</id>
   		<url>file:///C:/dev/repositories/releases</url>
   	</repository>
+  	<!--repository>
+  		<id>NexusPublish</id>
+  		<url>http://rskjhbvlcsi3:8091/nexus/content/repositories/releases/</url>
+  	</repository-->
+  	
+  	<!-- Add NEXUS SERVER CREDENTIALS TO YOUR SETTINGS.XML
+  	 <server>
+    	<id>NexusPublish</id>
+    	<username>xxxx</username>
+    	<password>xxxx</password>
+    </server>
+  	 -->
+  	
   </distributionManagement>
 </project>
